@@ -62,7 +62,7 @@ const Navbar = () => {
       <div className="hidden md:flex justify-center items-center bg-gray-400 px-6 py-4 shadow-md">
         <div className="flex gap-3">
           <NavLink
-            to="/"
+            to="/Travel-To-Heaven/"
             className={({ isActive }) =>
               `${isActive ? activeStyle : inactiveStyle} no-underline hover:no-underline focus:no-underline hover:text-white` } >
             HOME
